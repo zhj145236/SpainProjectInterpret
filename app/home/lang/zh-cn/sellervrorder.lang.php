@@ -1,0 +1,152 @@
+<?php
+
+
+$lang['store_order_order_sn']		= 'Número de pedido';
+$lang['store_order_order_sn_search']= 'Introduzca el número de orden que desea consultar';
+$lang['store_order_comp_exp']		= 'Empresa de envió';
+$lang['store_order_goods_detail']		= 'Prodcto';
+$lang['store_order_goods_single_price']	= 'Preciounidario（Peso）';
+$lang['store_order_sell_back']			= 'Posventa';
+$lang['store_order_order_stateop']		= 'Estado y operación';
+$lang['store_order_order_confirm']		= 'Confirmarpedido';
+$lang['store_order_confirm_order']		= 'Confirmarpedido';
+$lang['store_order_shipping_order']		= 'Confirmarpedido contra reembols';
+$lang['store_order_add_time']		= 'Tiempo de pedido';
+$lang['store_order_buyer']			= 'Comprador';
+$lang['store_order_search']			= 'Buscar';
+$lang['store_order_cancel_order']	= 'Canceladopedido';
+$lang['store_order_show_deliver']	= 'Ver logística';
+$lang['store_order_buyer_info']		= 'Información de contacto';
+$lang['store_order_receiver']		= 'Nombre';
+$lang['store_order_phone']			= 'Teléfono';
+$lang['store_order_mobile']			= 'Celular';
+$lang['store_order_email']			= 'Email';
+$lang['store_order_area']			= 'Ciudad';
+$lang['store_order_address']		= 'Direccion de recibido';
+$lang['store_order_zip_code']		= 'Código postal';
+$lang['store_order_pay_method']		= 'Metodo de pago';
+$lang['store_order_sum']			= 'Monto de pedido';
+$lang['store_order_state']			= 'Estado de pedido';
+$lang['store_order_group']			= 'Compragrupal';
+$lang['store_order_evaluated']		= 'Evaluado';
+$lang['store_order_received_price']	= 'Pago recibi';
+$lang['store_order_modify_price']	= 'Modificarprecio';
+$lang['store_order_modify_price_gpriceerror']	= 'El precio total del producto no puedeestarvacío y debe ser un númer';
+$lang['store_order_send']			= 'Configurar delivery';
+$lang['store_order_refund']			= 'Reembolso';
+$lang['store_buyer_confirm']		= 'ConfirmarReembolsopendiente';
+$lang['store_order_return']			= 'Devolución de mercancía';
+$lang['store_order_modify_no']		= 'Modificarnúmero de pedido';
+$lang['store_order_view_order']		= 'Detalles de pedido';
+$lang['store_order_complain']	= 'Queja';
+$lang['store_order_no_result']		= 'Actualmente no hay pedidoselegibles';
+$lang['store_order_ensure_cancel']	= 'Estáseguro de quedesea cancelar este pedido？';
+$lang['store_order_cancel_reason']	= 'Motivo de cancelación';
+$lang['store_order_lose_goods']		= 'No se puedenpreparar los productos';
+$lang['store_order_invalid_order']	= 'No es un pedidoválido';
+$lang['store_order_buy_apply']		= 'Los compradores toman la iniciativa de solicitar';
+$lang['store_order_other_reason']	= 'Otrosrazón';
+$lang['store_order_buyer_with']		= 'comprador';
+$lang['store_order_sn']				= 'Número de pedido';
+$lang['store_order_modify_rule']	= 'Ingrese el monto a modificar, solo números';
+$lang['store_order_ensure_receive_fee']	= 'Estáseguro de haberrecibido el pago?';
+$lang['store_order_handle_desc']		= 'Notas de operación';
+$lang['store_order_shipping_no_null']	= 'El número de pedido de logística no puedeestarvacío';
+$lang['store_order_input_shipping_no']	= 'Por favor ingresesu número de orden de envío';
+$lang['store_order_shipping_no']		= 'Número logística';
+$lang['store_order_want_evaluate']	= 'Quieroevaluar';
+$lang['store_show_order_detail']		= 'Detalles de pedido';
+$lang['store_show_order_info']			= 'Información de pedido';
+$lang['store_show_order_seller_info']	= 'Informacion del vendedor';
+$lang['store_show_order_store_name']	= 'Nombre de la tienda';
+$lang['store_show_order_wangwang']		= 'Wangwang';
+$lang['store_show_order_goods_name']	= 'Producto';
+$lang['store_show_order_amount']		= 'Cantidad';
+$lang['store_show_order_price']			= 'Precio(Peso)';
+$lang['store_show_order_tp_fee']		= 'Flete';
+$lang['store_show_order_pay_message']	= 'Información de pago';
+$lang['store_show_order_pay_time']		= 'Tiempo de pago';
+$lang['store_show_order_send_time']		= 'Tiempo de envió';
+$lang['store_show_order_finish_time']	= 'Tiempo de completado';
+$lang['store_show_order_shipping_info']	= 'Informacionlogística';
+$lang['store_show_order_receiver']		= 'Receptor';
+$lang['store_show_order_receiver_address']	= 'Direccion de reciboq';
+$lang['store_show_order_mobile']			= 'Número de teléfonomovil';
+$lang['store_show_order_buyer_message']		= 'Mensaje del comprador';
+$lang['store_show_order_handle_history']	= 'Historial de Operaciones';
+$lang['store_show_system']				= 'sistema';
+$lang['store_show_order_at']				= 'en';
+$lang['store_show_order_cur_state']			= 'Estado actual del pedido';
+$lang['store_show_order_next_state']		= 'Siguienteestado';
+$lang['store_show_order_reason']			= 'Razón';
+$lang['store_show_order_printorder']		= 'Imprima la factura';
+$lang['store_show_order_shipping_han']		= 'incluir';
+$lang['store_order_tip1']		= 'Recopilación de la plataforma, confirmeque la recopilación se realizaautomáticamentepor el sistema o manualmentepor el administrador. El vendedor no puedecobrar el pago y el administradorpuede cancelar la orden de pagofuera de líneaque no se ha pagado';
+$lang['store_order_cancel_success']	= 'Pedidocanceladocorrectamente';
+$lang['store_order_edit_ship_success']	= 'El costo de envío se modificócorrectament';
+$lang['store_order_none_exist']	= 'El orden no existe';
+$lang['store_order_edit_amount_fail']	    = 'No se pudomodificar el precio';
+$lang['store_order_edit_amount_success']	= 'Modificación de precioexitosa';
+
+//exchange
+$lang['e_exchange_code']	= 'Código de intercambioelectrónico';
+$lang['enter_e_exchange_code']	= 'Ingrese el código de intercambioelectrónicoproporcionadopor el comprador';
+$lang['store_order_clear']	= 'Borrar';
+$lang['store_order_back']	= 'Atrás';
+$lang['submit_validation']	= 'Enviarverificación';
+$lang['exchange_codes_offset_consumption']	= 'Por favor  ingreseel código de canjeproporcionadopor el comprador y envíelodespués de la verificación. Cadacódigo de canjecompensa un solo consumo';
+$lang['order_message']	= 'Realizar un mensaje de pedido';
+$lang['exchange_successful']	= 'Canjeado con existo';
+$lang['conversion_code']	= 'Código de canjearlo';
+
+//index
+$lang['check_exchange_code']	= 'Verificarcódigo de intercambio';
+$lang['not_show_closed_orders']	= 'No mostrarpedidoscerrados';
+$lang['trading_status']	= 'Estadocomercial';
+$lang['trading_operations']	= 'Operacionescomerciales';
+
+//show_order
+$lang['virtual_order_information']	= 'Información de pedido virtual';
+$lang['virtual_order_number']	= 'Número de pedido virtual';
+$lang['buyer_space']	= 'Comprador';
+$lang['receive_mobile_phone']	= 'Recibirteléfonomóvil';
+$lang['transaction_closure']	= 'Transaccióncerrada';
+$lang['transaction_closure_cause']	= 'Transaccióncerrada, motivo';
+$lang['order_has_been_generated']	= 'El pedido ha sidogenerado, esperando el pago del comprador';
+$lang['buyer_payment_process1']	= '1. El comprador aún no ha pagado el pedido';
+$lang['buyer_payment_process2']	= '2. Si el pedido no es válido, puedehacer clic en';
+$lang['buyer_payment_process3']	= '3. Si el comprador no paga el pedido, el sistemaserá';
+$lang['buyer_payment_process4']	= 'La orden se cierraautomáticamente';
+$lang['buyers_payment']	= 'El comprador ha pagado y se ha emitido el código de canjeelectrónico';
+$lang['buyers_payment2']	= 'Los compradores hanpagado y el código de canjeelectrónicoestáesperandoseremitido';
+$lang['buyer_paid_process1']	= '1. El código de canjeelectrónico de este pedido ha sidoenviadoautomáticamente al comprador por el sistema para recibirlo';
+$lang['buyer_paid_process2']	= '2. Estatransacción es desdeahora hasta';
+$lang['buyer_paid_process3']	= '，Vencidocaducaráautomáticamente';
+$lang['buyer_paid_process4']	= 'El pago se realizócorrectamente, espere a que el sistemaenvíe el código de canje';
+$lang['generate_orders']	= 'Generar pedidos';
+$lang['order_generation_time']	= 'Tiempo de generación de pedidos';
+$lang['complete_payment']	= 'Pago completo';
+$lang['issue_exchange_code']	= 'Emitircódigo de intercambio';
+$lang['order_finished']	= 'Pedidoclmpletado';
+$lang['prompt_information1']	= 'Si la lista es demasiadolarga y excede el área de visualización, mueva el mouse para ver';
+$lang['prompt_information2']	= 'Pago real * Relación de comisión = Comisión a pagar (Peso)';
+$lang['virtual_order_number']	= 'Número de pedido virtual';
+$lang['place_order_time']	= 'Hora del pedidos';
+$lang['prompt_information3']	= 'Usarlímite de tiempo: desdeahora hasta';
+$lang['prompt_information4']	= '，Sin reembolsodespués del vencimiento';
+$lang['prompt_information5']	= 'Usado';
+$lang['prompt_information6']	= 'Peso cupón (código';
+
+//controller
+$lang['have_right_operate'] = 'Sin derecho a operar';
+$lang['exchange_code_format_error'] = 'El formato del código de intercambio es incorrecto, vuelva a ingresar';
+$lang['exchange_code_not_exist'] = 'El código de canjeandono existe';
+$lang['exchange_code_been_used'] = 'Se ha utilizado el código de canje';
+$lang['exchange_code_expired'] = 'El código de canje ha expirado, la fecha de expiración es：';
+$lang['exchange_code_been_applied_refund'] = 'Este código de canje ya ha sidoreembolsado y no se puedeutilizar';
+$lang['payment_been'] = 'Pagado';
+$lang['exchange_code'] = 'Intercambio de código de intercambio';
+$lang['error'] = 'Error';
+
+return $lang
+?>
